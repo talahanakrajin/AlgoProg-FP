@@ -5,6 +5,7 @@ Minesweeper is a logic-based single-player computer game played on a rectangular
 
 ### How to use the program
 All you need to dod is run the maingame code. Then the program will immediately start with the starting screen. You can pick 3 difficulties: Beginner, Intermediate and Expert.
+
 ![](images/image1.png)
 
 Different levels have different grids with timer on the left, the number of mines that haven't been found and the menu button that asks whether the player wants to start a new game or not.

@@ -2,8 +2,11 @@
 
 Minesweeper is a logic-based single-player computer game played on a rectangular board. The objective is to find a specified number of randomly placed "mines" in the shortest possible time by clicking on "safe" squares while using squares and avoid mines. The game ends when the player clicks on a mine. 
 
+### Video Demo: https://drive.google.com/drive/folders/1y282dkv4K0KenuWjiOr1vbvymCvhvD0n?usp=sharing
+
 ## How to use the program
-All you need to dod is run the maingame code. Then the program will immediately start with the starting screen. You can pick 3 difficulties: Beginner, Intermediate and Expert.
+All you need to do is run the maingame code. Then the program will immediately start with the starting screen, where you can pick 3 difficulties: Beginner, Intermediate and Expert.
+
 
 ![](images/image1.png)
 

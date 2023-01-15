@@ -1,4 +1,4 @@
-#TODO: Fix clock bug
+# Requirements to make the program to work
 import pygame
 import datetime
 from random import randint

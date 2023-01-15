@@ -48,6 +48,24 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Minesweeper")
 
 
+
+#Checks for mines
+class boardSpot(object):
+    value = 0
+    selected = False
+    mine = False
+
+    def __init__(self):
+        self.selected = False
+
+    def __str__(self):
+        return str(boardSpot.value)
+
+    def isMine(self):
+        if boardSpot.value == -1:
+            return True
+        return False
+
 """
 Initializes the minefield and sets the proximity values of all grids
 """

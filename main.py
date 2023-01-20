@@ -66,6 +66,22 @@ class boardSpot(object):
             return True
         return False
 
+#board size and no. of mines
+class boardClass(object):
+    def __init__(self, m_boardSize, m_numMines):
+        self.board = [[boardSpot() for i in range(m_boardSize)] for j in range(m_boardSize)]
+        self.boardSize = m_boardSize
+        self.numMines = m_numMines
+        self.selectableSpots = m_boardSize * m_boardSize - m_numMines
+        i = 0
+        while i < m_numMines:
+            x = random.randint(0, self.boardSize-1)
+            y = random.randint(0, self.boardSize-1)
+            if not self.board[x][y].mine:
+                self.addMine(x, y)
+                i += 1
+            else:
+                i -= 1
 """
 Initializes the minefield and sets the proximity values of all grids
 """
